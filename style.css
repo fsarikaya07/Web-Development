@@ -1,10 +1,69 @@
 /* body */
-
-
-
-
+body {
+    background-color: black;
+    color: white;
+}
 
 
 
 /* container */
 
+#container {
+    background-color: rgb(41, 39, 39);
+    /* border: 1px solid rgp(41, 39, 39); */
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px red;
+}
+.span{
+    color: red;
+}
+
+.heading {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+#title {
+    font-size: 90px;
+}
+#img-div{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+#imega{
+    width: 400px;
+    border-radius: 40px;
+}
+#info{
+    text-align: justify;
+    width: 80%;
+    margin: 20px auto;
+}
+#footer{
+    text-align: right;
+}
+ul{
+    width: 80%;
+    margin: auto;
+    
+}
+li{
+    width: 80%;
+    line-height: 3rem;
+}
+#link{
+    color: red;
+    text-decoration: none;
+}
+#link:hover{
+    border:2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: large;
+    padding: 5px;
+}
